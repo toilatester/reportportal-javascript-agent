@@ -63,3 +63,5 @@ typings/
 
 .cucumber-reports
 .rerun
+cucumber_reports/**
+rerun/**
