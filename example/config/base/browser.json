@@ -1,0 +1,43 @@
+{
+    "chrome": {
+        "browserName": "chrome",
+        "chromeOptions": {
+            "args": []
+        },
+        "platformName": "ANDROID"
+    },
+    "chrome_mobile": {
+        "browserName": "chrome",
+        "chromeOptions": {
+            "mobileEmulation": {
+                "deviceName": "Nexus 5"
+            }
+        }
+    },
+    "chrome_parallel": {
+        "browserName": "chrome",
+        "shardTestFiles": true,
+        "maxInstances": 10
+    },
+    "firefox": {
+        "browserName": "firefox",
+        "acceptInsecureCerts": true
+    },
+    "mobile": {
+        "browserName": "chrome",
+        "platformName": "Android",
+        "platformVersion": "7.0",
+        "deviceName": "Android Emulator"
+    },
+    "mobile_galaxy_a7_kobiton": {
+        "sessionName":"Automation test session",
+        "sessionDescription": "",
+        "deviceOrientation": "portrait",
+        "captureScreenshots": true,
+        "browserName": "chrome",
+        "deviceGroup": "KOBITON",
+        "deviceName": "Galaxy A7(2017)",
+        "platformVersion": "6.0.1",
+        "platformName": "Android"
+    }
+}
