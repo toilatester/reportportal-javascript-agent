@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "cucumber": "./node_modules/.bin/protractor ./example/config/protractor.cucumber.config.js",
+    "debug": "./node_modules/.bin/protractor ./example/config/protractor.config.debug.js",
     "ptor": "./node_modules/.bin/protractor ./example/config/protractor.config.js"
   },
   "author": "minhhoang",
@@ -18,6 +19,7 @@
     "glob": "^7.1.2",
     "http": "0.0.0",
     "is-generator": "^1.0.3",
+    "jasmine": "^3.3.1",
     "json-concat": "0.0.1",
     "localize": "^0.4.7",
     "log4js": "^3.0.6",
@@ -27,10 +29,9 @@
     "reportportal-client": "^5.1.0"
   },
   "devDependencies": {
-    "agent-js-cucumber": "^0.1.1",
     "axios": "^0.18.0",
-    "bunyan": "^1.8.12",
     "cucumber": "^5.0.2",
+    "jasminewd2": "^2.2.0",
     "protractor-cucumber-framework": "^6.1.1",
     "request": "^2.88.0",
     "request-promise": "^4.2.2"
