@@ -18,10 +18,6 @@ exports.config = {
   },
   beforeLaunch: () => {
     Log4jsConfig(path.join(__dirname, 'protractor.config.js'));
-    agent.sendLaunchRequest({}, true);
   },
-  afterLaunch: async () => {
-    await agent.processAgentRequests();
-    return agent.sendLaunchRequest({}, false, true).promise;
-  }
+  afterLaunch: async () => {}
 };
