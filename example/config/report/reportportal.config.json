@@ -1,5 +1,5 @@
 {
-  "token": "f1d908c2-8ee9-4df7-8298-ca08ee28f04c",
+  "token": "1a3b1e9c-5151-4c73-8e18-801f34966322",
   "endpoint": "http://localhost:6060/api/v1",
   "launch": "protractor-demo-refactor",
   "project": "demo-agent",
