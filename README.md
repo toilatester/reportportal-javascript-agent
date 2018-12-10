@@ -22,6 +22,20 @@ Instructions on how to install `Protractor-CucumberJS` can be found [here](https
 
 ## Configuration
 Configure the with the sample below in your conf.js file:
+
+sample reportportal.config.json file
+```json
+{
+  "token": "f1d908c2-8ee9-4df7-8298-ca08ee28f04c",
+  "endpoint": "http://localhost:6060/api/v1",
+  "launch": "protractor-demo-refactor",
+  "project": "demo-agent",
+  "attachPicturesToLogs": true,
+  "takeScreenshot": "onFailure",
+  "debug": false
+}
+
+```
 ```js
 const {
   Log4jsReportPortal,
