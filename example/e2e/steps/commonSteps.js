@@ -1,10 +1,19 @@
 const { Given, When, Then } = require('cucumber');
 const { expect } = require('chai');
 const { LoggerHelper } = require('../../../lib/log4js');
+const { browser } = require('protractor');
 const logger = new LoggerHelper('Common Step');
-Given('Sample URL', function() {
-  logger.logInfo('Given Sample URL');
+Given(/^Sample URL$/, function() {
+  items = [
+    'http://www.google.com',
+    'https://toilatester.wordpress.com/',
+    'https://github.com/minhhoangvn',
+    'https://github.com/toilatester/reportportal-javascript-agent'
+  ];
+  const url = items[Math.floor(Math.random() * items.length)];
+  logger.logInfo('Given Sample URL ', url);
   this.number = 10;
+  return browser.navigate().to(url);
 });
 
 Given('There are {int} cucumbers', function(totalCucumbers) {

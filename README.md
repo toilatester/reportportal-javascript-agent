@@ -2,7 +2,13 @@
 
 A Protractor and Prortactor-Cucumber-JS reporter plugin to report results to Report Portal(http://reportportal.io/).
 
+## Sample ReportPortal for protractor
+
 ![](Demo.gif)
+
+## Sample ReportPortal for protractor-cucumber-framework
+
+![](CucumberDemo.gif)
 
 ## Installation
 
@@ -11,7 +17,7 @@ The easiest way is to keep `reportporal-javascript-agent` as a devDependency in 
 ```json
 {
   "devDependencies": {
-    "reportporal-javascript-agent": "~0.0.8"
+    "reportporal-javascript-agent": "~0.0.9"
   }
 }
 ```
@@ -194,4 +200,4 @@ CucumberReportHook(cucumberAgent);
 setDefaultTimeout(DEFAULT_TIMEOUT);
 ```
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details

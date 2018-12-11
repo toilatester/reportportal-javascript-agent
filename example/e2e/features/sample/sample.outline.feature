@@ -1,5 +1,6 @@
 Feature: Demo scenario outline sample
   Scenario Outline: Scenario Outline demo
+    Given Sample URL
     Given There are <start> cucumbers
     When I eat <eat> cucumbers
     Then I should have <left> cucumbers
