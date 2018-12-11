@@ -1,6 +1,6 @@
 {
   "name": "report-portal-js-agent",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "ReportPortal Agent for Protractor-Cucumber-JS and Protractor",
   "repository": {
     "type": "git",
