@@ -9,7 +9,7 @@ The easiest way is to keep `reportporal-javascript-agent` as a devDependency in 
 ```json
 {
   "devDependencies": {
-    "reportporal-javascript-agent": "~0.0.4"
+    "reportporal-javascript-agent": "~0.0.5"
   }
 }
 ```
