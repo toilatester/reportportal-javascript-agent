@@ -2,6 +2,8 @@
 
 A Protractor and Prortactor-Cucumber-JS reporter plugin to report results to Report Portal(http://reportportal.io/).
 
+![](Demo.gif)
+
 ## Installation
 
 The easiest way is to keep `reportporal-javascript-agent` as a devDependency in your `package.json`.
@@ -9,7 +11,7 @@ The easiest way is to keep `reportporal-javascript-agent` as a devDependency in 
 ```json
 {
   "devDependencies": {
-    "reportporal-javascript-agent": "~0.0.5"
+    "reportporal-javascript-agent": "~0.0.8"
   }
 }
 ```
