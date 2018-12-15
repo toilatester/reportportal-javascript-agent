@@ -1,4 +1,4 @@
-const { LoggerHelper } = require('../lib/log4js');
+const { LoggerHelper } = require('../../lib/log4js');
 const log = new LoggerHelper('Test');
 const { browser } = require('protractor');
 describe('Protractor Demo App Spec-1', function() {

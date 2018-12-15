@@ -36,6 +36,7 @@
     "axios": "^0.18.0",
     "cucumber": "^5.0.2",
     "jasminewd2": "^2.2.0",
+    "mocha": "^5.2.0",
     "protractor-cucumber-framework": "^6.1.1",
     "request": "^2.88.0",
     "request-promise": "^4.2.2"
